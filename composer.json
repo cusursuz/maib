@@ -1,0 +1,23 @@
+{
+    "name": "cusursuz/maib",
+    "description": "test",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Cusursuz\\Maib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Piotr Cusursuz",
+            "email": "cusursuz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "guzzlehttp/guzzle": "~7.0",
+        "guzzlehttp/guzzle-services": "~1.0"
+      }
+}
